@@ -20,7 +20,7 @@ class ACollisionBoxHitActor : AActor
         {
             Log("CollisionBox successfully created.");
             // Bind the collision event 
-			CollisionBox.OnComponentHit.AddUFunction(this, n"ComponentHit");
+	    CollisionBox.OnComponentHit.AddUFunction(this, n"ComponentHit");
         }
         else
         {
