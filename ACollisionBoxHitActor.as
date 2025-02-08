@@ -1,4 +1,4 @@
-//Simple test of an actor with a Collision Box and printing.
+//Simple test of an actor with a Collision Box and printing with AngelScript
 class ACollisionBoxHitActor : AActor
 {
     // Collision box component
