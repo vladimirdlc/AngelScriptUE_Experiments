@@ -10,7 +10,6 @@ class ACollisionBoxHitActor : AActor
     default CollisionBox.BoxExtent = FVector(50.0, 50.0, 50.0);
     default CollisionBox.SetCollisionProfileName(n"BlockAll");
 
-    // BlueprintOverride ensures this method runs when the actor begins play
     UFUNCTION(BlueprintOverride)
     void BeginPlay()
     {
