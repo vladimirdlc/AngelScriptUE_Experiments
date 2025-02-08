@@ -1,3 +1,5 @@
+//No need for includes!
+
 //Simple test of an actor with a Collision Box and printing with AngelScript
 class ACollisionBoxHitActor : AActor
 {
